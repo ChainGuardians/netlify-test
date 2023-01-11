@@ -29,6 +29,25 @@ const List = () => {
                </li>
            </ul>
 
+
+           <h1>Deep Linking</h1>
+           <ul className={styles.list}>
+               <li>
+                   <Link href={`/account`}>
+                       <span>Account</span>
+                   </Link>
+               </li><li>
+               <Link href={`/account/page1`}>
+                   <span>Account 1</span>
+               </Link>
+           </li>
+               <li>
+                   <Link href={`/account/page2`}>
+                       <span>Account 2</span>
+                   </Link>
+               </li>
+           </ul>
+
        </>
    )
 }
