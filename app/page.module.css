@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+ul.list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem;
+  display: flex;
+}
+
+ul.list li {
+  margin: 0 1rem;
+}
